@@ -1,55 +1,49 @@
 <!DOCTYPE html>
 <html  style ="height:100%;">
 <head>
-	<style>
-	    @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
-	    .first_div {
-                text-align:center;
-                position: relative;
-                font-size: 150%;
-            }
-	    .Primeiro_prato {
-                position: relative;
-            }
-            .sub_div {
-                position: absolute;
-		width: 100%;
-                bottom: 0px;
-            }
-        </style>
+<style>
+	 @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+	.container {
+  	position: relative;
+  	text-align: center;
+  	color: white;
+	}
+	.bottom-left {
+  	position: absolute;
+  	bottom: 8px;
+  	left: 16px;
+	}
+	.top-left {
+  	position: absolute;
+  	top: 8px;
+  	left: 16px;
+	}
+	.top-right {
+  	position: absolute;
+  	top: 8px;
+  	right: 16px;
+	}
+	.bottom-right {
+  	position: absolute;
+  	bottom: 8px;
+  	right: 16px;
+	}
+	.centered {
+ 	position: absolute;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+	}
+</style>
 </head>
-<body  style = "height:100%;" >
-	<img src="https://Andreferreir.github.io/header-flower.png" style=" width:100%;">
-	<div class = "container">
-	<center>
-		<div class="first_div" style="font-family: 'Grape Nuts', cursive; color:#ffcccc;"> 
-			<h1 >Ementa Casamento Carolina e Diogo</h1>
-   		</div>
-
-    		<div style= " font-family: 'Grape Nuts', cursive; margin-top:60px;">
-			<h1 >Entrada</h1>
-			<h2 style=" font-family:Times New Roman;font-weight:normal; ">-------------- CARPACCIO --------------</h2>
-    		</div>
-
-    		<div class="Primeiro_prato" style= "position: relative; margin-top:40px; font-family: 'Grape Nuts', cursive;">
-			<img src="https://Andreferreir.github.io/side-flower.png" style=" width:15%;">
-			<h1 >Primeiro prato</h1>
-			<h2 style="font-family:Times New Roman; margin-left:5px; font-weight:normal;">-------------- BOLONHESA --------------</h2>
-    		</div>
-
-    		<div class="Segundo prato" style= " font-family: 'Grape Nuts', cursive; margin-top:40px;">
-			<h1 >Segundo prato</h1>
-			<h2 style="font-family:Times New Roman; font-weight:normal;">-------------- BACALHAU A BRAS --------------</h2>
-    		</div>
-
-    		<div style= " font-family: 'Grape Nuts', cursive; margin-top:40px;">
-			<h1>Sobremesa</h1>
-			<h2 style="font-family:Times New Roman; font-weight:normal;">-------------- RED VELVET --------------</h2>									       
-    		</div>
-	</center>
-	</div>
-	<div class="sub_div">
-		<img src="https://Andreferreir.github.io/footer-flower.png" style="width: 100%;">
-	</div>
+<body >
+  <div class="container">
+  <img src="https://Andreferreir.github.io/side-flower.png">
+  <div class="bottom-left">Bottom Left</div>
+  <div class="top-left">Top Left</div>
+  <div class="top-right">Top Right</div>
+  <div class="bottom-right">Bottom Right</div>
+  <div class="centered">Centered</div>
+</div>
 </body>
 </html>
